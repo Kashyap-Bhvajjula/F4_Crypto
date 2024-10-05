@@ -1,0 +1,70 @@
+* {
+  background-color: #1a1a1c;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: none; 
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #8E8E8E; 
+  font-size: 15px;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: black; 
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 500px;
+  height: 25px;
+  color: white;
+  border: 2px solid #8E8E8E;
+  margin-right: 10px;
+}
+
+::placeholder { 
+  color: white;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.mCap {
+  margin-bottom: 10px;
+  padding: 5px;
+  height: 39px;
+  color: white;
+  border: 2px solid #8E8E8E;
+  margin-right: 10px;
+}
+
+.pChange {
+  margin-bottom: 10px;
+  padding: 5px;
+  height: 39px;
+  color: white;
+  border: 2px solid #8E8E8E;
+  margin-right: 10px;
+}
